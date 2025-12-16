@@ -59,11 +59,11 @@ graph TD
     C --> F[7]
     C --> G[9]
     
-    D -.->|1st| B
-    B -.->|2nd| A
-    A -.->|3rd| F
-    F -.->|4th| C
-    C -.->|5th| G
+    D -.->|"① Visit 2"| B
+    B -.->|"② Visit 4"| A
+    A -.->|"③ Visit 5"| F
+    F -.->|"④ Visit 7"| C
+    C -.->|"⑤ Visit 8"| G
     
     style A fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff
     style B fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
@@ -101,11 +101,11 @@ graph TD
     C --> F[7]
     C --> G[9]
     
-    A -.->|1st| B
-    B -.->|2nd| D
-    D -.->|3rd| C
-    C -.->|4th| F
-    F -.->|5th| G
+    A -.->|"① Visit 5"| B
+    B -.->|"② Visit 4"| D
+    D -.->|"③ Visit 2"| C
+    C -.->|"④ Visit 8"| F
+    F -.->|"⑤ Visit 7"| G
     
     style A fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff
     style B fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
@@ -143,11 +143,11 @@ graph TD
     C --> F[7]
     C --> G[9]
     
-    D -.->|1st| B
-    B -.->|2nd| F
-    F -.->|3rd| G
-    G -.->|4th| C
-    C -.->|5th| A
+    D -.->|"① Visit 2"| B
+    B -.->|"② Visit 4"| F
+    F -.->|"③ Visit 7"| G
+    G -.->|"④ Visit 9"| C
+    C -.->|"⑤ Visit 8"| A
     
     style A fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff
     style B fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
